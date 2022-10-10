@@ -65,6 +65,6 @@ app.delete("/:id", async (req, res) => {
   res.send("deleted");
 });
 
-app.listen(4001, () => {
-  console.log("app listening to 4001");
+app.listen(3000, () => {
+  console.log("app listening to 3000");
 });
