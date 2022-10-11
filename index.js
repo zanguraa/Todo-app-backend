@@ -6,7 +6,7 @@ import pg from "pg";
 const { Pool } = pg;
 
 const pool = new Pool({
-  host: "localhost",
+  host: "postgresdb",
   user: "postgres",
   password: "my_postgres_password",
   database: "postgres",
